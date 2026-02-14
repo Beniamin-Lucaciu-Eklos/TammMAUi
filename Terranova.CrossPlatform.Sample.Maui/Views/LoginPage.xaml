@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<views:AppContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:Terranova.CrossPlatform.Sample.Maui.ViewModels"
+             x:Class="Terranova.CrossPlatform.Sample.Maui.Views.LoginPage"
+             xmlns:c="clr-namespace:Terranova.CrossPlatform.Mobile.Core.Views.Controls;assembly=Terranova.CrossPlatform.Mobile.Core"
+             xmlns:views="clr-namespace:Terranova.CrossPlatform.Sample.Maui.Views"
+             x:DataType="viewModels:LoginViewModel"
+             x:Name="_page"
+             Title="Login"
+             Padding="24">
+    <ScrollView VerticalOptions="Center">
+        <VerticalStackLayout Spacing="24"
+                             BindingContext="{Binding BindingContext, Source={x:Reference _page}}"
+                             BackgroundColor="White">
+
+            <c:TrnValidatedEntry Header="Utente"
+                                 Text="{Binding UserName}"
+                                 ValidationPath="UserName" />
+                                    
+            <c:TrnValidatedEntry Header="Password"
+                                 Text="{Binding Password}"
+                                 ValidationPath="Password"
+                                 IsPassword="true" />
+            
+            <Button Command="{Binding LoginCommand}"
+                    Text="Login" />
+        </VerticalStackLayout>
+    </ScrollView>
+</views:AppContentPage>

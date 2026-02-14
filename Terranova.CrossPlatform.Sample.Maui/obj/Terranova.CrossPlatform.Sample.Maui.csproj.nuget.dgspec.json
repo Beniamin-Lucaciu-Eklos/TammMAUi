@@ -1,0 +1,1686 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\TAMMMobileX\\Terranova.CrossPlatform.Sample.Maui\\Terranova.CrossPlatform.Sample.Maui.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+      "version": "4.1.1",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj",
+        "projectName": "Terranova.CrossPlatform.Core.Abstractions",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "DBEnum": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "TUFramework.TerranovaORM": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TimeZoneConverter": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "jose-jwt": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "DBEnum": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "TUFramework.TerranovaORM": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TimeZoneConverter": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data.Sqlite\\Terranova.CrossPlatform.Core.Data.Sqlite.csproj": {
+      "version": "4.1.1",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data.Sqlite\\Terranova.CrossPlatform.Core.Data.Sqlite.csproj",
+        "projectName": "Terranova.CrossPlatform.Core.Data.Sqlite",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data.Sqlite\\Terranova.CrossPlatform.Core.Data.Sqlite.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data.Sqlite\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data\\Terranova.CrossPlatform.Core.Data.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data\\Terranova.CrossPlatform.Core.Data.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data\\Terranova.CrossPlatform.Core.Data.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data\\Terranova.CrossPlatform.Core.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "TUFramework.TerranovaORM": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TUFramework.TerranovaORM.DataExtensions": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TUFramework.TerranovaORM.RetiExtensions": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "TUFramework.TerranovaORM": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TUFramework.TerranovaORM.DataExtensions": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TUFramework.TerranovaORM.RetiExtensions": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data\\Terranova.CrossPlatform.Core.Data.csproj": {
+      "version": "4.1.1",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data\\Terranova.CrossPlatform.Core.Data.csproj",
+        "projectName": "Terranova.CrossPlatform.Core.Data",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data\\Terranova.CrossPlatform.Core.Data.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "TUFramework.TerranovaORM": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TUFramework.TerranovaORM.DataExtensions": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TUFramework.TerranovaORM.RetiExtensions": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "TUFramework.TerranovaORM": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TUFramework.TerranovaORM.DataExtensions": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            },
+            "TUFramework.TerranovaORM.RetiExtensions": {
+              "target": "Package",
+              "version": "[1.64.19.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics.NLog\\Terranova.CrossPlatform.Core.Diagnostics.NLog.csproj": {
+      "version": "4.1.1",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics.NLog\\Terranova.CrossPlatform.Core.Diagnostics.NLog.csproj",
+        "projectName": "Terranova.CrossPlatform.Core.Diagnostics.NLog",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics.NLog\\Terranova.CrossPlatform.Core.Diagnostics.NLog.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics.NLog\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj": {
+      "version": "4.1.1",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj",
+        "projectName": "Terranova.CrossPlatform.Core.Diagnostics",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions.csproj",
+        "projectName": "Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj",
+        "projectName": "Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "DryIoc": {
+              "target": "Package",
+              "version": "[5.4.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj",
+        "projectName": "Terranova.CrossPlatform.Mobile.MVVM.Core",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions\\Terranova.CrossPlatform.Mobile.MVVM.Container.Abstractions.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Events\\Terranova.CrossPlatform.Mobile.MVVM.Events.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Events\\Terranova.CrossPlatform.Mobile.MVVM.Events.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Events\\Terranova.CrossPlatform.Mobile.MVVM.Events.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Events\\Terranova.CrossPlatform.Mobile.MVVM.Events.csproj",
+        "projectName": "Terranova.CrossPlatform.Mobile.MVVM.Events",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Events\\Terranova.CrossPlatform.Mobile.MVVM.Events.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj",
+        "projectName": "Terranova.CrossPlatform.Mobile.MVVM",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-android",
+          "net9.0-ios",
+          "net9.0-windows10.0.19041"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net9.0-android35.0": {
+            "targetAlias": "net9.0-android",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj"
+              }
+            }
+          },
+          "net9.0-ios18.0": {
+            "targetAlias": "net9.0-ios",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj"
+              }
+            }
+          },
+          "net9.0-windows10.0.19041": {
+            "targetAlias": "net9.0-windows10.0.19041",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc\\Terranova.CrossPlatform.Mobile.MVVM.Container.DryIoc.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-ios18.0": {
+          "targetAlias": "net9.0-ios",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-windows10.0.19041": {
+          "targetAlias": "net9.0-windows10.0.19041",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.Core\\Terranova.CrossPlatform.Mobile.Core.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.Core\\Terranova.CrossPlatform.Mobile.Core.csproj",
+        "projectName": "Terranova.CrossPlatform.Mobile.Core",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.Core\\Terranova.CrossPlatform.Mobile.Core.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-android",
+          "net9.0-ios",
+          "net9.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net9.0-android35.0": {
+            "targetAlias": "net9.0-android",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj"
+              }
+            }
+          },
+          "net9.0-ios18.0": {
+            "targetAlias": "net9.0-ios",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj"
+              }
+            }
+          },
+          "net9.0-windows10.0.19041": {
+            "targetAlias": "net9.0-windows10.0.19041.0",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Abstractions\\Terranova.CrossPlatform.Core.Abstractions.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics\\Terranova.CrossPlatform.Core.Diagnostics.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-ios18.0": {
+          "targetAlias": "net9.0-ios",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-windows10.0.19041": {
+          "targetAlias": "net9.0-windows10.0.19041.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.MVVM.Popups\\Terranova.CrossPlatform.Mobile.MVVM.Popups.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.MVVM.Popups\\Terranova.CrossPlatform.Mobile.MVVM.Popups.csproj",
+        "projectName": "Terranova.CrossPlatform.Mobile.MVVM.Popups",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.MVVM.Popups\\Terranova.CrossPlatform.Mobile.MVVM.Popups.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.MVVM.Popups\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-android",
+          "net9.0-ios",
+          "net9.0-windows10.0.19041"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net9.0-android35.0": {
+            "targetAlias": "net9.0-android",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj"
+              }
+            }
+          },
+          "net9.0-ios18.0": {
+            "targetAlias": "net9.0-ios",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj"
+              }
+            }
+          },
+          "net9.0-windows10.0.19041": {
+            "targetAlias": "net9.0-windows10.0.19041",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM\\Terranova.CrossPlatform.Mobile.MVVM.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "dependencies": {
+            "AsyncAwaitBestPractices": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-ios18.0": {
+          "targetAlias": "net9.0-ios",
+          "dependencies": {
+            "AsyncAwaitBestPractices": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-windows10.0.19041": {
+          "targetAlias": "net9.0-windows10.0.19041",
+          "dependencies": {
+            "AsyncAwaitBestPractices": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dev\\TAMMMobileX\\Terranova.CrossPlatform.Sample.Maui\\Terranova.CrossPlatform.Sample.Maui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\TAMMMobileX\\Terranova.CrossPlatform.Sample.Maui\\Terranova.CrossPlatform.Sample.Maui.csproj",
+        "projectName": "Terranova.CrossPlatform.Sample.Maui",
+        "projectPath": "C:\\Dev\\TAMMMobileX\\Terranova.CrossPlatform.Sample.Maui\\Terranova.CrossPlatform.Sample.Maui.csproj",
+        "packagesPath": "C:\\Users\\Beniamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\TAMMMobileX\\Terranova.CrossPlatform.Sample.Maui\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Dev\\TAMMMobileX\\NuGet.Config",
+          "C:\\Users\\Beniamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-android"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "c:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.terranovasoftware.eu/nuget": {}
+        },
+        "frameworks": {
+          "net9.0-android35.0": {
+            "targetAlias": "net9.0-android",
+            "projectReferences": {
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data.Sqlite\\Terranova.CrossPlatform.Core.Data.Sqlite.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Data.Sqlite\\Terranova.CrossPlatform.Core.Data.Sqlite.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics.NLog\\Terranova.CrossPlatform.Core.Diagnostics.NLog.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Core\\src\\Diagnostics.NLog\\Terranova.CrossPlatform.Core.Diagnostics.NLog.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\MVVM\\Terranova.CrossPlatform.Mobile.MVVM.Core\\Terranova.CrossPlatform.Mobile.MVVM.Core.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.Core\\Terranova.CrossPlatform.Mobile.Core.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.Core\\Terranova.CrossPlatform.Mobile.Core.csproj"
+              },
+              "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.MVVM.Popups\\Terranova.CrossPlatform.Mobile.MVVM.Popups.csproj": {
+                "projectPath": "C:\\Dev\\TAMMMobileX\\ref\\CrossPlatform.Mobile\\src\\Terranova.CrossPlatform.Mobile.MVVM.Popups\\Terranova.CrossPlatform.Mobile.MVVM.Popups.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies.net472": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

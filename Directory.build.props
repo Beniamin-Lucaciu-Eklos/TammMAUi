@@ -1,0 +1,18 @@
+<Project>
+	<PropertyGroup>
+		<Company>Terranova S.r.l.</Company>
+		<Copyright>2022 Terranova S.r.l.</Copyright>
+		<Authors>Terranova USI 6</Authors>
+		<PackageId>$(AssemblyName)</PackageId>
+		<Version>5.0.0.6</Version>
+		<ApplicationDisplayVersion>5.0.0.6</ApplicationDisplayVersion>
+		<PackageReleaseNotes></PackageReleaseNotes>
+		<PackageProjectUrl>https://gitlab.twsfi.local/TAMMMobile/TAMMMobileX</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://gitlab.twsfi.local/TAMMMobile/TAMMMobileX.git</RepositoryUrl>
+		<DefaultLanguage>en-US</DefaultLanguage>
+		<LangVersion>10.0</LangVersion>
+		<NoWarn>1701;1702;NU1803</NoWarn>
+	</PropertyGroup>
+
+</Project>

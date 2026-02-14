@@ -1,0 +1,2 @@
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "Terranova.CrossPlatform.Sample.Maui")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "Terranova.CrossPlatform.Sample.Maui.Views")]

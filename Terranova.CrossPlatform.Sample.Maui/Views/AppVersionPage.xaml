@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Border
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:c="clr-namespace:Terranova.CrossPlatform.Mobile.Core.Views.Controls;assembly=Terranova.CrossPlatform.Mobile.Core"
+    xmlns:mvvm="http://terranovasoftware.eu"
+    xmlns:viewModels="clr-namespace:Terranova.CrossPlatform.Sample.Maui.ViewModels"
+    mvvm:DialogLayout.CloseOnBackgroundTapped="{Binding DialogCanBeCanceled}"
+    x:Class="Terranova.CrossPlatform.Sample.Maui.Views.AppVersionPage"
+    x:Name="_page"
+    Style="{DynamicResource DialogBorderStyle}"
+    x:DataType="viewModels:AppVersionPageViewModel">
+    
+    <Grid RowSpacing="0" RowDefinitions="Auto,Auto,Auto,Auto">
+        <!-- <TemplatedView ControlTemplate="{StaticResource DialogTitleControlTemplate}" /> -->
+
+        <StackLayout Margin="{DynamicResource CenterDialogContentMargin}"
+                     Spacing="{DynamicResource DefaultLeftRightMarginSize}"
+                     Grid.Row="1">
+            <c:TrnImage Style="{DynamicResource DialogSignImageStyle}"
+                        Source="logo.png" />
+
+            <ScrollView Margin="0" Padding="0"
+                        HorizontalOptions="FillAndExpand">
+                <StackLayout>
+                    <Label Style="{DynamicResource DialogMessageLabelStyle}"
+                           Text="{Binding Message}" />
+                    <Label Style="{DynamicResource DialogMessageLabelStyle}"
+                           Text="{Binding Copyright}" />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+        
+
+        <Button Grid.Row="3"
+                Command="{Binding DialogCancelCommand}"
+                Margin="{DynamicResource EndDialogContentMargin}"
+                Text="Close"
+                Style="{DynamicResource CommandPrimaryButtonStyle}" />
+    </Grid>
+</Border>

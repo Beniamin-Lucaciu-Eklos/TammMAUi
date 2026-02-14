@@ -1,0 +1,16 @@
+[submodule "ref/CrossPlatform.Core"]
+	path = ref/CrossPlatform.Core
+	url = https://gitlab.twsfi.local/terranova.crossplatform/terranova.crossplatform.core.git
+	branch = Sharing_on_develop
+[submodule "ref/TammSharedLibraries"]
+	path = ref/TammSharedLibraries
+	url = https://gitlab.twsfi.local/TAMM/tammsharedlibraries.git
+	branch = Sharing_on_develop
+[submodule "ref/EIP/EIP.Plugins/EIP.MDM.CrossPlatform"]
+	path = ref/EIP/EIP.Plugins/EIP.MDM.CrossPlatform
+	url = https://gitlab.twsfi.local/EIP/EIP.MDM.git
+	branch = Sharing_on_develop
+[submodule "ref/CrossPlatform.Mobile"]
+	path = ref/CrossPlatform.Mobile
+	url = https://gitlab.twsfi.local/terranova.crossplatform/terranova.crossplatform.mobile.git
+	branch = Sharing_on_develop

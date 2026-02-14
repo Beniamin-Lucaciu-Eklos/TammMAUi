@@ -1,0 +1,5 @@
+Refactor MVVM DialogService with Popupservice with https://learn.microsoft.com/it-it/dotnet/communitytoolkit/maui/views/popup-service
+
+Build Android in Release command:
+ dotnet publish -c Release -r android-arm64 -p:AndroidKeyStore=true -p:AndroidSigningKeyStore='../../Data/TammMobile KeyStore/TammMobile.keystore' -p:AndroidSigningKeyAlias=TammMobile -p:AndroidSigningKeyPass=TammMobile -p:AndroidSigningStorePass=TammMobile -p:AndroidPackageFormats=aab;apk
+
